@@ -1,0 +1,29 @@
+#常规配置
+server:
+  port: 80
+  servlet:
+    context-path: /chapter02
+  tomcat:
+    uri-encoding: utf-8
+#复杂配置
+my:
+  name: 江南一点雨
+  address: China
+#列表配置
+  favorites:
+    - 足球
+    - 徒步
+    - Coding
+#更复杂配置
+diffrent:
+  users:
+    - name: 星星点点
+      address: ZJ
+      favorites:
+        - 阅读
+        - 写字
+    - name: 滴滴答答
+      address: TYJ
+      favorites:
+        - 跑步
+        - 跳舞

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FreeMarker/FreeMarker.iml" filepath="$PROJECT_DIR$/FreeMarker/FreeMarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JPA/JPA.iml" filepath="$PROJECT_DIR$/JPA/JPA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JdbcTemplate/JdbcTemplate.iml" filepath="$PROJECT_DIR$/JdbcTemplate/JdbcTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thymeleaf/Thymeleaf.iml" filepath="$PROJECT_DIR$/Thymeleaf/Thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner/banner.iml" filepath="$PROJECT_DIR$/banner/banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/properties/properties.iml" filepath="$PROJECT_DIR$/properties/properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-parent.iml" filepath="$PROJECT_DIR$/springboot-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+    </modules>
+  </component>
+</project>
