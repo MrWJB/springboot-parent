@@ -13,13 +13,15 @@
 
 <script>
 
-    let hostpath = window.location.protocol + "//" + window.location.host + "/";
+    let hostpath = window.location.protocol + "//" + window.location.host;
     // let href = window.location.href;
     let pathname = window.location.pathname;
     let local = pathname.substring(0,pathname.substr(1).indexOf('/') + 1);
     console.log(local)
     console.log(window);
     alert(hostpath);
+
+    let url = hostpath + local;
 
     let uploadFileDialog = function () {
         $(".filebutton").click();
@@ -38,7 +40,7 @@
             form.append('file',files[i]);
         }
         $.ajax({
-            url: 'http://localhost:8081/chapter02/upload',
+            url: url,
             method: 'POST',
             data: form,
             processData: false,
