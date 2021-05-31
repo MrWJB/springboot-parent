@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+    <script src="jquery-3.6.0.js"></script>
+</head>
+<body>
+<div class="main">
+    <input class="filebutton" type="file" onchange="selectedFile();" style="display: none" multiple="multiple"><br>
+    <input type="button" onclick="uploadFileDialog();" value="点击上传">
+</div>
+
+<script>
+
+    let hostpath = window.location.protocol + "//" + window.location.host + "/";
+    // let href = window.location.href;
+    let pathname = window.location.pathname;
+    let local = pathname.substring(0,pathname.substr(1).indexOf('/') + 1);
+    console.log(local)
+    console.log(window);
+    alert(hostpath);
+
+    let uploadFileDialog = function () {
+        $(".filebutton").click();
+    }
+
+    let selectedFile = function () {
+        let fbutton = $(".filebutton")[0];
+        let files = fbutton.files;
+        startUpload(files);
+    }
+
+    let startUpload = function (files) {
+        let form = new FormData();
+        // form.append('files',files);
+        for (let i = 0; i < files.length; i++) {
+            form.append('file',files[i]);
+        }
+        $.ajax({
+            url: 'http://localhost:8081/chapter02/upload',
+            method: 'POST',
+            data: form,
+            processData: false,
+            contentType: false,
+            async: false,
+            cache: false,
+            success: function (data) {
+                console.log(data);
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        })
+    }
+
+</script>
+</body>
+</html>
