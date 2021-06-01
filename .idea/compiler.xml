@@ -8,16 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="web" />
+        <module name="JPA" />
+        <module name="properties" />
+        <module name="datasource" />
+        <module name="FreeMarker" />
+        <module name="JdbcTemplate" />
         <module name="banner" />
         <module name="Thymeleaf" />
-        <module name="JPA" />
-        <module name="JdbcTemplate" />
-        <module name="FreeMarker" />
-        <module name="properties" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="banner" target="1.8" />
+      <module name="datasource" target="1.8" />
       <module name="FreeMarker" target="1.8" />
       <module name="JdbcTemplate" target="1.8" />
       <module name="JPA" target="1.8" />
@@ -34,6 +36,7 @@
       <module name="JdbcTemplate" options="" />
       <module name="Thymeleaf" options="" />
       <module name="banner" options="" />
+      <module name="datasource" options="" />
       <module name="properties" options="" />
       <module name="springboot-parent" options="" />
       <module name="web" options="" />

@@ -17,6 +17,7 @@
         <module>FreeMarker</module>
         <module>JdbcTemplate</module>
         <module>JPA</module>
+        <module>datasource</module>
     </modules>
 
     <properties>

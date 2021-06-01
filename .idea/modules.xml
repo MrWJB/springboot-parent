@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/JdbcTemplate/JdbcTemplate.iml" filepath="$PROJECT_DIR$/JdbcTemplate/JdbcTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thymeleaf/Thymeleaf.iml" filepath="$PROJECT_DIR$/Thymeleaf/Thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/banner/banner.iml" filepath="$PROJECT_DIR$/banner/banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datasource/datasource.iml" filepath="$PROJECT_DIR$/datasource/datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/properties/properties.iml" filepath="$PROJECT_DIR$/properties/properties.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-parent.iml" filepath="$PROJECT_DIR$/springboot-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
