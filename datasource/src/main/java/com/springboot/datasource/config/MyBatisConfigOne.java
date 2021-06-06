@@ -4,6 +4,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,9 +16,10 @@ import javax.sql.DataSource;
  * 的Mapper将使用SqlSessionFactory实例。
  */
 @Configuration
-@MapperScan(value = "com.springboot.datasource.mapper1",sqlSessionFactoryRef = "sqlSessionFactory1")
+@MapperScan(value = "com.springboot.datasource.mapper1",sqlSessionFactoryRef = "sqlSessionFactoryBean1")
 public class MyBatisConfigOne {
 
+    @Autowired
     @Qualifier(value = "dsOne")
     DataSource dsOne;
 

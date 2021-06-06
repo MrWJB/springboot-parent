@@ -8,7 +8,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import javax.sql.DataSource;
 
 @Configuration
-public class JdbcTemplatConfig {
+public class JdbcTemplateConfig {
 
     @Bean
     JdbcTemplate jdbcTemplateOne(@Qualifier("dsOne")DataSource dataSource){

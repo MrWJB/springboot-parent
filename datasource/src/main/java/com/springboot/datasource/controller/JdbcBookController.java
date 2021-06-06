@@ -21,12 +21,12 @@ public class JdbcBookController {
 //    @Autowired
     JdbcTemplate jdbcTemplate;
 
-    @Autowired
+    @Resource
     @Qualifier("jdbcTemplateTwo")
     JdbcTemplate jdbcTemplateTwo;
 
-    @GetMapping("/test1")
-    public void test1() {
+    @GetMapping("/testJdbc")
+    public void testJdbc() {
         List<Book> books1 = jdbcTemplate.query("select * from book",
                 new BeanPropertyRowMapper<>(Book.class));
         List<Book> books2 = jdbcTemplateTwo.query("select * from book",

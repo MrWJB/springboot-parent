@@ -16,15 +16,15 @@ public class JpaBookController {
     @Autowired
     UserDao2 userdao2;
 
-    @GetMapping("/test1")
-    public void test1(){
+    @GetMapping("/testJpa")
+    public void testJpa(){
         User u1 = new User();
         u1.setAge(50);
         u1.setName("鲁迅");
         u1.setGender("男");
         userDao.save(u1);
 
-        User u2 = new User();
+        com.springboot.datasource.domain.User u2 = new com.springboot.datasource.domain.User();
         u2.setAge(80);
         u2.setName("泰戈尔");
         u2.setGender("男");

@@ -1,0 +1,20 @@
+{
+  "header": {
+    "alice": "request body file",
+    "version": "1.0.0",
+    "code": "2021"
+  },
+  "body": {
+    "prov": "上海",
+    "city": "浦东新区",
+    "mobile": "12903212122",
+    "name": "王光利",
+    "price": "23.23",
+    "date": "20191221",
+    "sale": {
+      "saleName": "李思思",
+      "salePrice": "233923",
+      "saleAddr": "中国北京"
+    }
+  }
+}
