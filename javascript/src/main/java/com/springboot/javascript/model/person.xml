@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<person gender="男">
+    <name>张三丰</name>
+    <age>23</age>
+    <addr>昆山中路59号楼</addr>
+    <date>20210606</date>
+    <keys>
+        <key>001</key>
+        <key>002</key>
+    </keys>
+</person>
