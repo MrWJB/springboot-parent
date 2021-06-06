@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/JdbcTemplate/pom.xml" />
         <option value="$PROJECT_DIR$/JPA/pom.xml" />
         <option value="$PROJECT_DIR$/datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/javascript/pom.xml" />
       </list>
     </option>
   </component>

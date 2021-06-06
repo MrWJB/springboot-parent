@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="web" />
         <module name="JPA" />
+        <module name="javascript" />
         <module name="properties" />
         <module name="datasource" />
         <module name="FreeMarker" />
@@ -21,8 +22,10 @@
       <module name="banner" target="1.8" />
       <module name="datasource" target="1.8" />
       <module name="FreeMarker" target="1.8" />
+      <module name="javascript" target="1.8" />
       <module name="JdbcTemplate" target="1.8" />
       <module name="JPA" target="1.8" />
+      <module name="js-project" target="1.8" />
       <module name="properties" target="1.8" />
       <module name="springboot-parent" target="1.8" />
       <module name="Thymeleaf" target="1.8" />
@@ -37,6 +40,8 @@
       <module name="Thymeleaf" options="" />
       <module name="banner" options="" />
       <module name="datasource" options="" />
+      <module name="javascript" options="" />
+      <module name="js-project" options="-parameters" />
       <module name="properties" options="" />
       <module name="springboot-parent" options="" />
       <module name="web" options="" />
